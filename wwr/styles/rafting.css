@@ -16,7 +16,7 @@
 body {
     font-family: var(--body-font);
     color: var(--primary-color);
-    background-color: #ffffff;
+    background-color: var(--accent2-color);
 }
 
 header,
