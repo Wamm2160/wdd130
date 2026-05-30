@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #1b4965;
+    --primary-color: #0f2f44;
     --secondary-color: #62b6cb;
     --accent1-color: #5fa8d3;
     --accent2-color: #cae9ff;
@@ -80,8 +80,8 @@ article {
     padding: 16px;
     text-align: center;
 
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
 }
 
 .hero article {
