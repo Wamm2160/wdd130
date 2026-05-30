@@ -46,7 +46,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: #0f2f44;
     font-weight: bold;
 }
 
@@ -81,7 +81,7 @@ article {
     text-align: center;
 
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--primary-color);
 }
 
 .hero article {
