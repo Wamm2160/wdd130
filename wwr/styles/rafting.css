@@ -46,7 +46,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #0f2f44;
+    color: var(--primary-color);
     font-weight: bold;
 }
 
@@ -81,7 +81,7 @@ article {
     text-align: center;
 
     background-color: var(--primary-color);
-    color: white;
+    color: var(--accent2-color);
 }
 
 .hero article {
@@ -90,14 +90,14 @@ article {
     left: 20px;
     right: 20px;
 
-    background-color: rgba(202, 233, 255, 0.9);
+    background-color: var(--accent2-color);
 }
 
 .hero article img {
     float: right;
     width: 125px;
     margin-left: 15px;
-    border: 2px solid white;
+    border: 2px solid var(--accent2-color);
 }
 
 footer {
@@ -106,7 +106,7 @@ footer {
     align-items: center;
     padding: 1rem;
     margin-top: 20px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid var(--accent2-color);
     background-color: var(--secondary-color);
 }
 
