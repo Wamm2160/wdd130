@@ -2,6 +2,9 @@
     --primary-color: #0f2f44;
     --secondary-color: #2b7a8b;
     --accent2-color: #e6f6ff;
+    --white-color: #ffffff;
+    --gray-color: #808080;
+    --success-color: #006400;
     --heading-font: Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -45,7 +48,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: var(--white-color);
     font-weight: bold;
 }
 
@@ -105,11 +108,11 @@ footer {
     margin-top: 20px;
     border-top: 1px solid var(--primary-color);
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white-color);
 }
 
 footer p {
-    color: white;
+    color: var(--white-color);
 }
 
 .socialmedia {
@@ -212,13 +215,13 @@ textarea {
 button {
     padding: 10px;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white-color);
     border: 1px solid var(--primary-color);
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #184a6b;
+    background-color: var(--success-color);
 }
 
 .employees {
@@ -239,4 +242,170 @@ button:hover {
 
 .employee-gallery img {
     width: 120px;
+}
+
+.home-hero {
+    position: relative;
+    margin-top: 20px;
+}
+
+.home-hero img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.home-hero h1 {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(15 47 68 / 0.85);
+    color: var(--white-color);
+    padding: 1rem;
+}
+
+.newsletter {
+    background-color: var(--white-color);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border: 1px solid var(--primary-color);
+}
+
+.newsletter h2,
+.home-action h2,
+.home-grid h2 {
+    text-align: center;
+}
+
+.newsletter form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.newsletter button {
+    grid-column: 1 / 3;
+}
+
+.home-action {
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.home-action h2 {
+    color: var(--white-color);
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.cta-button:hover {
+    background-color: var(--success-color);
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 2rem 0;
+}
+
+.home-grid h2 {
+    grid-column: 1 / 3;
+}
+
+.home-card {
+    background-color: var(--white-color);
+    border: 1px solid var(--primary-color);
+}
+
+.home-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.home-card div {
+    padding: 1rem;
+}
+
+.trips-action {
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.trips-action h2 {
+    color: var(--white-color);
+}
+
+.trip-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin: 2rem 0;
+}
+
+.trip-cards h2 {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+.trip-cards article {
+    background-color: var(--white-color);
+    border: 1px solid var(--primary-color);
+    padding-bottom: 1rem;
+}
+
+.trip-cards img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.trip-cards h3,
+.trip-cards p {
+    padding: 0.5rem 1rem;
+}
+
+.trip-table {
+    margin: 2rem 0;
+}
+
+.trip-table h2 {
+    text-align: center;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--white-color);
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: var(--white-color);
 }
