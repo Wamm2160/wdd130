@@ -1,8 +1,8 @@
 :root {
     --primary-color: #0f2f44;
-    --secondary-color: #62b6cb;
-    --accent1-color: #5fa8d3;
-    --accent2-color: #cae9ff;
+    --secondary-color: #2b7a8b;
+    --accent1-color: #2f6f8f;
+    --accent2-color: #e6f6ff;
     --heading-font: Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -41,12 +41,12 @@ header img {
 nav {
     display: flex;
     justify-content: space-around;
-    list-style: center;
+
 }
 
 nav a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: white;
     font-weight: bold;
 }
 
@@ -79,7 +79,6 @@ article {
     width: 100%;
     padding: 16px;
     text-align: center;
-
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
@@ -89,7 +88,6 @@ article {
     bottom: 20px;
     left: 20px;
     right: 20px;
-
     background-color: var(--accent2-color);
 }
 
@@ -106,8 +104,13 @@ footer {
     align-items: center;
     padding: 1rem;
     margin-top: 20px;
-    border-top: 1px solid var(--accent2-color);
-    background-color: var(--accent1-color);
+    border-top: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+}
+
+footer p {
+    color: white;
 }
 
 .socialmedia {
@@ -209,9 +212,14 @@ textarea {
 
 button {
     padding: 10px;
-    background-color: var(--accent2-color);
-    border: 1px solid gray;
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid var(--primary-color);
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #184a6b;
 }
 
 .employees {
